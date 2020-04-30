@@ -122,6 +122,7 @@ $ SF = 1 / supplygrowthrate = stock/flow  $
     ALthough the results of the crawling phase were in the low quartile of funds that still exist, the majority of funds who started in 2018 no longer exist. Phase 1 has effectively served as a sandbox for the founders to learn lessons in space.
     
     According to the PWC Crypto Hedge Fund Report, quantitative strategies significantly outperform all other strategies in drawdown seasons.
+    
 ![2018](2018_crypto_hf_returns.png)
 
 ### 5. Recommendations
