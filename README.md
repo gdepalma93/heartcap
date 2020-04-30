@@ -1,4 +1,4 @@
-![HeartCap](/Research/heartcap_logo.png)
+![HeartCap](heartcap_logo.png)
 
 ## 1. Overview and Origin
 
@@ -96,33 +96,35 @@
 stock = size_of_reserves   
 flow = yearly_production_of_supply    
 
-$ supplygrowthrate = flow/stock $  
-$ SF = 1/supplygrowthrate = stock/flow  $  
+$ supplygrowthrate = flow / stock $  
+$ SF = 1 / supplygrowthrate = stock/flow  $  
     
 ![s2f](s2f.png)
 
 
-    Supply of bitcoin is fixed. New bitcoins are created in every new block. Blocks are created every 10 minutes (on average), when a miner finds the hash that satisfies the PoW required for a valid block. The first transaction in each block, called the coinbase, contains the block reward for the miner that found the block. The block reward consists of the fees that people pay for transactions in that block and the newly created coins (called subsidy). The subsidy started at 50 bitcoins, and is halved every 210,000 blocks (about 4 years). That's why 'halvings' are very important for bitcoins money supply and SF. Halvings also cause the supply growth rate (in bitcoin context usually called 'monetary inflation') to be stepped and not smooth.
+    "Supply of bitcoin is fixed. New bitcoins are created in every new block. Blocks are created every 10 minutes (on average), when a miner finds the hash that satisfies the PoW required for a valid block. The first transaction in each block, called the coinbase, contains the block reward for the miner that found the block. The block reward consists of the fees that people pay for transactions in that block and the newly created coins (called subsidy). The subsidy started at 50 bitcoins, and is halved every 210,000 blocks (about 4 years). That's why 'halvings' are very important for bitcoins money supply and SF. Halvings also cause the supply growth rate (in bitcoin context usually called 'monetary inflation') to be stepped and not smooth." -@TrillionDollarUSD
 
 ![btc_monetary_inflation](btc_monetary_inflation.jpeg)
+
+
+    This brings up a point of emphasis that is obvious once you see it, but easy to look past. The monetary policy of Bitcoin is fundamentally different than the monetary policy of the legacy system. We currently live in a system that can print money as the centralized authority sees fit(Inflationary), where as Bitcoin is scarce and robust in nature due to the fixed changes to the flow of supply validated by everybody playing the game. There is no risk for hyperinflation this way. This gives insight into why cryptoassets are truly uncorrelated. 
     
 ---
 
 
 ### 4. Results
     
-    The core performance metrics that cryptoasset investment funds aim to win are 1) Actual Returns relative to BTC 2) Fund Growth Rate 3) Assets Under Management. 
+    The core performance metrics that cryptoasset investment funds aim to win are:
+        1) Alpha relative to [BTC, USD]
+        2) CryptoAsset Accumulation Rate 
+        3) Assets Under Management 
     
-    ALthough the results of the crawling phase were in the low quartile of funds that still exist, the majority of funds who started in 2018 no longer exist. Phase 1 has effectively served as a sandbox for the founders to learn lessons in space without much at risk. 
+    ALthough the results of the crawling phase were in the low quartile of funds that still exist, the majority of funds who started in 2018 no longer exist. Phase 1 has effectively served as a sandbox for the founders to learn lessons in space.
     
     According to the PWC Crypto Hedge Fund Report, quantitative strategies significantly outperform all other strategies in drawdown seasons.
-
 ![2018](2018_crypto_hf_returns.png)
 
-
 ### 5. Recommendations
-
-
     The following solutions are reccommended for Heart Capital to implement during phase 3. 
 
     1. Build and Implement RoboAdvisor that mimics core fund strategy 
@@ -130,13 +132,13 @@ $ SF = 1/supplygrowthrate = stock/flow  $
     3. Tokenize Fund
     4. Automate Processes with AI Powered pipelines
     
-    Offering a roboadvisor service will allow new money investors not protected by accredited investment invest in our stragies. Offering a quantitative approach will increase return potential in drawdown seasons. Tokenizing the Fund will increase liquidity and security. Automating processes will improve loyalty and partner experiences while decreasing the amount of time spent on tasks that can be automated. These services utilize AI, Blockchain, algorithmic trading, API's, and cloud computing.  
-    
+    Offering a roboadvisor service will allow new money investors not protected by accredited investment invest in our stragies. Offering a quantitative approach will increase return potential in drawdown seasons. Tokenizing the Fund will increase liquidity and security. Automating processes will improve loyalty and partner experiences while decreasing the amount of time spent on tasks that can be automated. These services utilize AI, Blockchain, algorithmic trading, API's, and cloud computing.   
  
 
 
 ### 6. Addendum
 
+News, Research, Reports, and support     
 [Andreessen Horowitz Targets 450mil Fund: Coindesk](https://www.coindesk.com/vc-firm-andreessen-horowitz-targets-450m-for-second-crypto-fund-report)  
 [2019 Crypto Fund Report: PWC](https://www.pwc.com/gx/en/financial-services/fintech/assets/pwc-elwood-2019-annual-crypto-hedge-fund-report.pdf)  
 [Crypto Asset Management: Investopedia](https://www.investopedia.com/tech/why-crypto-asset-management-next-big-thing/)  
@@ -172,18 +174,25 @@ $ SF = 1/supplygrowthrate = stock/flow  $
 [Tokenization](https://www2.deloitte.com/content/dam/Deloitte/lu/Documents/financial-services/lu-tokenization-of-assets-disrupting-financial-industry.pdf)  
 
 
+CryptoAsset Institutional Exchange    
+[Fidelity Digital](https://www.fidelitydigitalassets.com/overview)  
+
+
+CryptoAsset Retail Exchanges    
 [Exchange: Coinbase](https://www.coinbase.com/)  
 [Exchange: Binance](https://www.binance.com/en)
 [Exchange: Kraken](https://www.kraken.com/)  
 [dydx: perpetual contracts](https://dydx.exchange/perpetual/)  
 
+Major Research and Development Labs    
 [Protocol Labs](https://protocol.ai/)  
 [Binance Labs](https://bitcoin.org/bitcoin.pdf)  
 
+Crypto Lending Platforms    
 [Compound](https://compound.finance/)
 [BlockFi](https://blockfi.com/)
 
-
+Bitcoin Data Viz    
 [bitaps: transactions](https://btc.bitaps.com/)  
 [bitcoin average: Global Price Index](https://bitcoinaverage.com/en/bitcoin-price/btc-to-usd)  
 [blockcyper: Blocks](https://bitcoinaverage.com/en/bitcoin-price/btc-to-usd)    
@@ -192,13 +201,15 @@ $ SF = 1/supplygrowthrate = stock/flow  $
 [Btconometrics: Bitcoin Quantitative Analysis](https://btconometrics.com/#)  
 [CoinMarketCap](https://coinmarketcap.com/)  
 
-[Bitcoin: Website](https://bitcoin.org/en/)
-[Bitcoin: Whitepaper](https://bitcoin.org/bitcoin.pdf)
-[Ethereum: Studio](https://studio.ethereum.org/)
-[Ethereum: Website](https://ethereum.org/)
-[Filecoin: Website](https://filecoin.io/)  
-[Filecoin: Whitepaper](https://filecoin.io/filecoin.pdf)  
+Core Projects    
+[Bitcoin: Website](https://bitcoin.org/en/)  
+[Bitcoin: Whitepaper](https://bitcoin.org/bitcoin.pdf)  
+[Ethereum: Studio](https://studio.ethereum.org/)  
+[Ethereum: Website](https://ethereum.org/)  
+[Filecoin: Website](https://filecoin.io/)   
+[Filecoin: Whitepaper](https://filecoin.io/filecoin.pdf)    
 
+Mining Pools    
 [btc.com](https://btc.com/)
 [f2pool.com](https://www.f2pool.com/)
 [AntPool](https://www.antpool.com/)
@@ -206,13 +217,14 @@ $ SF = 1/supplygrowthrate = stock/flow  $
 [OKExPool](https://www.okex.com/pool)  
 [ViaBTC](https://www.viabtc.com/?_ga=2.221191384.155853144.1587482338-1208547145.1587482338)  
 
-
+Learn Bitcoin    
 [Bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)  
 [Bitcoin Knowledge Podcast](https://www.bitcoin.kn/)   
 [We Use Coins: Individuals, Storage, Merchants, Exchanges](https://www.weusecoins.com/)    
 [Bitcoin Mining](https://www.bitcoinmining.com/)    
 [IamSitoshi](http://www.iamsatoshi.com/category/video-archive/)
 
+Wealth Funds    
 [QuantFund: Strix Leviathan](https://strixleviathan.com/#new-page-section)
 [Multi-Strategy Fund: Polychain Capital](https://polychain.capital/)  
 [Miller Value Partners](https://millervalue.com/)  
@@ -230,18 +242,19 @@ $ SF = 1/supplygrowthrate = stock/flow  $
 [Institutional Asset Management: JPMorgan](https://am.jpmorgan.com/us/en/asset-management/institutional/)  
 [Wealth Management: Goldman](https://www.goldmansachs.com/what-we-do/consumer-and-investment-management/private-wealth-management/)  
 
+
 [Bitcoin Wallets](https://bitcoin.org/en/choose-your-wallet) 
 [Github Projects](http://www.bitcoinprojects.net/)  
 [Buy Bitcoin Worldwide](https://www.buybitcoinworldwide.com/)  
 
-
+Bitcoin Culture     
 [Evolution of Bitcoin](https://www.youtube.com/watch?v=HUpGHOLkoXs)  
 [Magic Money](https://www.youtube.com/watch?v=PVo5wCSnmSs)  
 [Bitcoin: Beyond the Bubble](https://www.youtube.com/watch?v=LszOt51OjXU)  
 [The Bitcoin Pheomenon](https://www.youtube.com/watch?v=6pWblf8COH4)  
 [Ulterior States]
 
-
+CryptoWealth Reading      
 [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)
 [Reading List](https://github.com/jashmenn/bitcoin-reading-list)  
 [Bitcoin Standard](https://www.amazon.com/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861)  
@@ -256,7 +269,7 @@ $ SF = 1/supplygrowthrate = stock/flow  $
 [Options Pricing and Volatility](https://www.amazon.com/Option-Volatility-Pricing-Strategies-Techniques-ebook/dp/B00O2A7HMS/ref=sr_1_1?dchild=1&keywords=options+pricing+and+volatility&qid=1588117470&s=books&sr=1-1)  
 
 
-
+Binance Research (These are really well done)   
 [Portfolio Optimization w/BnB](https://research.binance.com/analysis/bnb-portfolio-optimization)  
 [MultiAsset Portfolios: CryptoAsset Diversification Benefits](https://research.binance.com/analysis/bitcoin-diversification-benefits)  
 [Categorizing CryptoAssets: Return-Driven Cluster Analysis](https://research.binance.com/analysis/cluster-analysis)  
@@ -265,12 +278,8 @@ $ SF = 1/supplygrowthrate = stock/flow  $
 [Bitcoin Mining Allocation Strategy](https://research.binance.com/analysis/bitcoin-mining-allocation)   
 [Institutional Money FLow 1](https://research.binance.com/analysis/institutional-insights-q2-2019)  
 [Institutional Money Flow 2](https://research.binance.com/analysis/institutional-insights-2nd-edition)  
-
-
 [Token Economies: Utility, Security, and Proprietary Tokens](https://research.binance.com/analysis/tokenization)  
 [Evolution of Stablecoins](https://research.binance.com/analysis/stablecoins-evolution)  
-
-
 [Ethereum (ETH)](https://research.binance.com/projects/ethereum)
 [EOS (EOS)](https://research.binance.com/projects/eos)
 [Ethereum Classic (ETC)](https://research.binance.com/projects/ethereum-classic)
@@ -279,7 +288,7 @@ $ SF = 1/supplygrowthrate = stock/flow  $
 [Bitcoin Cash (BCH)](https://research.binance.com/projects/bitcoin-cash)
 [Tezos (XTZ)](https://research.binance.com/projects/tezos)  
 
-
+Binance Services   
 [Charity](https://www.binance.charity/)  
 [Exchange](https://www.binance.com/en)  
 [Information Platform](https://info.binance.com/)  
@@ -290,6 +299,7 @@ $ SF = 1/supplygrowthrate = stock/flow  $
 [Wallet](https://trustwallet.com/)  
 
 
+Binance Academy
 [Blockchain Use Cases](https://www.binance.vision/blockchain/blockchain-use-cases)  
 [Wyckoff Method](https://www.binance.vision/economics/the-wyckoff-method-explained)  
 [The Psychology of Market Cycles](https://www.binance.vision/economics/the-psychology-of-market-cycles)  
@@ -323,8 +333,6 @@ $ SF = 1/supplygrowthrate = stock/flow  $
 [Trading Futures](https://www.binance.vision/tutorials/the-ultimate-guide-to-trading-on-binance-futures)  
 [Forward and Future Contracts](https://www.binance.vision/economics/what-are-forward-and-futures-contracts)  
 [Asset Allocation and Diversification](https://www.binance.vision/economics/asset-allocation-and-diversification-explained)  
-
-
 [Guide To Blockchain Tech](https://www.binance.vision/blockchain/what-is-blockchain-technology-a-comprehensive-guide-for-beginners)  
 [Stock To Flow Model](https://www.binance.vision/economics/bitcoin-and-the-stock-to-flow-model)  
 [Intro to Ethereum](https://www.binance.vision/blockchain/what-is-ethereum)  
