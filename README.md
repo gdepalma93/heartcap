@@ -1,7 +1,14 @@
+<<<<<<< HEAD
+Heart Capital is a multi-strategy crypto asset Investment management firm that aims to partner with heart-centered High Net Worth Individuals and endowment funds seeking the benefits from exposure to cryptoassets.
+=======
 ![HeartCap](heartcap_logo.png)
+>>>>>>> 7054efe68ded9d0f9ddf530effdc33e8296f2a3e
 
-## 1. Overview and Origin
+The Market Research Jupyter notebook details the current opportunity.
 
+<<<<<<< HEAD
+Website Link: www.heartcap.io
+=======
     Heart Capital, LLC was incorporated in January of 2018. HeartCap was founded by Trevor Orsinger(Lawyer), Charlie McKenna(Wealth Advisor, CPA), and Grant DePalma(Ex-Athlete, Engineer). The idea of the firm came from when the 3 founders shining light upon a lucky opportunity in time for wealth creation in the form of an emerging uncorrelated and antifragile asset class with an assymetric positive reward to risk profile resulting from a step function type innovation in finance. This opportunity combined with the team's experience and a culture that aims toward love yields the greatest probability of wealth creation for their partners. 
 
 ---
@@ -343,3 +350,4 @@ Binance Academy
 [Beginner's Guide](https://www.binance.vision/economics/a-beginners-guide-to-security-tokens)   
 [Learn AI](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A/videos)  
 [MIT Math x Finance Course](https://ocw.mit.edu/courses/mathematics/18-s096-topics-in-mathematics-with-applications-in-finance-fall-2013/video-lectures/lecture-20-option-price-and-probability-duality/)  
+>>>>>>> 7054efe68ded9d0f9ddf530effdc33e8296f2a3e
